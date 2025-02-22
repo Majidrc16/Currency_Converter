@@ -20,21 +20,18 @@ To run this project locally, follow these steps:
 
 1️⃣ Clone the Repository
 
- git clone https://github.com/Majidrc16/currency-converter.git
+git clone https://github.com/Majidrc16/currency-converter.git
 
-
-3️⃣ Install Dependencies
+2️⃣ Install Dependencies
 
 npm install
 npm i axios
 
-4️⃣ Start the Application
+3️⃣ Start the Application
 
 npm run dev
 
 This will run the app in development mode. Open http://localhost:3000/ in your browser to view it.
-
-
 
 🔧 Technologies Used
 
@@ -68,4 +65,8 @@ This project is open-source and free to use under the MIT License.
 💡 Contributing
 
 Feel free to fork, clone, or submit pull requests to improve the project! 😊
+
+🌐 Live Demo
+
+Check out the live version of the application here: Currency Converter
 
