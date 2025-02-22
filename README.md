@@ -68,5 +68,5 @@ Feel free to fork, clone, or submit pull requests to improve the project! 😊
 
 🌐 Live Demo
 
-Check out the live version of the application here: Currency Converter
+Check out the live version of the application here: https://currency-converter-majidrc16.netlify.app/
 
