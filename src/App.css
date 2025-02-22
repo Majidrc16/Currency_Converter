@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.currency-converter {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.currency-converter h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+.currency-div input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.currency-div input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.currency-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.currency-selector div {
+  flex: 1;
+}
+.currency-selector select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.currency-selector select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+  transform: none;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #007bff;
+}
+p {
+  color: red;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .currency-selector {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
