@@ -3,7 +3,7 @@ import { getCurrencyData } from "./API/postAPI";
 import "./App.css";
 
 function App() {
-    const [amount, setAmount] = useState();
+    const [amount, setAmount] = useState( );
     const [fromCurrency, setFromCurrency] = useState("USD");
     const [toCurrency, setToCurrency] = useState("INR");
     const [convertedAmount, setConvertedAmount] = useState(null);

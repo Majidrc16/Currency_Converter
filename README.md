@@ -26,24 +26,15 @@ To run this project locally, follow these steps:
 3️⃣ Install Dependencies
 
 npm install
+npm i axios
 
 4️⃣ Start the Application
 
-npm start
+npm run dev
 
 This will run the app in development mode. Open http://localhost:3000/ in your browser to view it.
 
-⚙️ File Structure
 
-📂 currency-converter
-│── 📂 src
-│   ├── 📂 API
-│   │   ├── postAPI.js  # Handles API requests
-│   ├── App.js         # Main component
-│   ├── App.css        # Stylesheet
-│   ├── index.js       # Entry point
-│── 📜 package.json    # Project dependencies
-│── 📜 README.md       # Project documentation
 
 🔧 Technologies Used
 
